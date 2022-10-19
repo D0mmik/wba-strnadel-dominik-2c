@@ -1,0 +1,20 @@
+h1 {
+
+    color: #FFA500;
+    size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #00FF00;
+    size: 25px;
+    font-weight: 600;
+
+}
+
+p {
+    color: #0000FF;
+    size: 16px;
+    font-weight: normal;
+}
