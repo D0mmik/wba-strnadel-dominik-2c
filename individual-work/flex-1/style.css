@@ -3,14 +3,14 @@ body {
     padding: 0px;
     height: 100%;
     background-image: url("background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
 }
-body background-image {
-    background-color:yellow;
-}
+
 
 .header {
     background: rgba(20, 2, 107, 0.4); 
-    padding: 80px;
+    padding: 10px;
 }
 
 .flex-container  {
@@ -25,9 +25,16 @@ body background-image {
     height: 100px;
     width: 100px;
     margin: 10px;
-    padding: 20px;
+    padding-top: 80px;
 }
 .flex-container img {
     margin-right: 200px;
     margin-left: -800px;
+}
+.textbox {
+    margin: auto;
+    background-color: white;
+    width: 750px;
+    height: 175px;
+
 }
