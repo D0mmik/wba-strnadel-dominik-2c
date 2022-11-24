@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    height: 150px;
+    background-color: rgba(203, 193, 177, 1);
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+header .item {
+    color:black;
+    list-style: none;
+    padding-right: 30px;
+    
+}
+
+header ul {
+    display: flex;
+}
+
+.logo {
+
+}
