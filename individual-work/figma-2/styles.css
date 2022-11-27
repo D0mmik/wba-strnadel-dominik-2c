@@ -3,8 +3,24 @@ body, html {
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
+    background: rgba(248, 247, 236, 0.5);
 }
+::-webkit-scrollbar {
+    width: 15px;
+  }
 
+::-webkit-scrollbar-track {
+    background: rgba(248, 247, 236, 0.5)
+  }
+   
+::-webkit-scrollbar-thumb {
+    background-color: rgb(173, 164, 150);
+    border-radius: 25px;
+  } 
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(173, 164, 150);
+}
 /* header */
 header {
     height: 150px;
@@ -89,6 +105,7 @@ header ul {
     padding-bottom: 30px;
 }
 
+/* button */
 button{
     text-transform: uppercase;
     font-weight: 100;
@@ -99,7 +116,8 @@ button{
     border: none;
     color: #F8F7EC;
     letter-spacing: 0.1em;
-    cursor: pointer; 
+    cursor: pointer;
+    box-shadow: 13px 15px 15px -3px rgba(0,0,0,0.1); 
 }
 
 /* section2 */
@@ -177,6 +195,82 @@ footer p{
     font-size: 12px;
     letter-spacing: 0.1em;
     line-height: 160%;
+}
+
+/* info-page */
+.grid-container {
+    height: 724px;
+    display: grid;
+    grid-template: 150px / auto auto auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 125px;
+}
+
+.grid-container .item {
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+}
+
+.grid-container .item p{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+.info-footer{
+    position: absolute;
+    bottom: 0px;
+}
+
+/* kontakt-page */
+.kontakt h1 {
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 63px;
+}
+
+.firstrow , .secondrow, .thirdrow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.firstrow input, .secondrow input {
+    background: rgba(124, 116, 116, 0.3);
+    width: 15%;
+    height: 40px;
+    margin: 20px 8px 20px 8px;
+    border: none;
+}
+
+.thirdrow input{
+    background: rgba(124, 116, 116, 0.3);
+    width: 30.8%;
+    height: 233px;
+    border: none;
+}
+
+::placeholder {
+    font-weight: 00;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    padding-left: 19px;
+    color: black;
+}
+
+.kontact-button{
+        text-align: center;
+        padding: 45px;
 }
 
 
