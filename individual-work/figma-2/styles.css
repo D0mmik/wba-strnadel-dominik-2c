@@ -306,8 +306,79 @@ textarea::placeholder {
 
 /* Scrollbar */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
     
+    /* main */
+    .hero-image{
+        display: none;
+    }
+
+    .section1 {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+    }
+
+    .section1-box {
+        position: static;
+        width: 310px;
+        height: 200px;
+    }
+
+    .section1-box h1 {
+        font-size: 20px;
+    }
+
+    .section2 {
+        width: 310px;
+    }
+
+    .section2wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section1-box p {
+        font-size: 13px;
+    }
+
+    .section2 h1 {
+        margin: 0px;
+        font-size: 11px;
+    }
+
+    .islands {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .islands .item {
+        flex-direction: row;
+        font-size: 10px;
+    }
+
+    .islands .item div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .islands .item p {
+        font-size: 10px;
+        width: auto;
+    }
+
+    .islands .item h3 {
+        font-size: 12px;
+    }
+
+    .islands img {
+        width: 117px;
+        height: 117px;
+    }
+
     /* Info */
     header {
         height: 80px;
@@ -364,6 +435,25 @@ textarea::placeholder {
         font-weight: 700;
         font-size: 20px;
         margin: 0px;
+    }
+
+    .row1 {
+        flex-direction: column;
+    }
+
+    .row2 {
+        flex-direction: column;
+    }
+
+    textarea {
+        width: 310px;
+        height: 144px;
+        margin-top: 10px;
+    }
+
+    input {
+        width: 310px;
+        height: 30px;
     }
 
     
