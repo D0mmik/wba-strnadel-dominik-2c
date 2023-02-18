@@ -52,6 +52,10 @@ header .item:hover {
     background-color: rgba(124, 116, 116, 0.3);
 }
 
+.active-li {
+    padding-right: 13.5px;
+}
+
 .logo {
     padding-left: 11.32%;
 }
@@ -68,10 +72,6 @@ header ul {
 }
 
 /* section1 */
-.section1 {
-    width: 100%;
-    height: 1190px;
-}
 
 .hero-image {
     width: 100%;
@@ -227,6 +227,8 @@ footer p{
 }
 
 .info-footer{
+    position: absolute;
+    bottom: 0;
     width: 100%;
 }
 
@@ -314,20 +316,44 @@ textarea::placeholder {
     }
 
     .section1 {
-        height: 300px;
         display: flex;
         justify-content: center;
-        background-color: white;
+        height: 278px;
     }
 
     .section1-box {
         position: static;
-        width: 310px;
         height: 200px;
+        width: 310px;
+        padding: 0px;
+        margin-bottom: 50px;
+        margin-top: 38px;
+        background-color: #7C7474;
+        color: #F8F7EC;
     }
 
     .section1-box h1 {
         font-size: 20px;
+        color: #F8F7EC;
+    }
+
+    .section1-box p {
+        padding: 0px;
+        padding-top: 10px;
+        line-height: 16px;
+    }
+
+    .section1 button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 120px;
+        height: 25px;
+        font-size: 11px;
+        font-weight: 600;
+        color: black;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        background-color: #a19b98;
+
     }
 
     .section2 {
@@ -358,25 +384,44 @@ textarea::placeholder {
     .islands .item {
         flex-direction: row;
         font-size: 10px;
+        margin-top: 38px;
+        padding: 0px;
     }
 
     .islands .item div {
         display: flex;
         flex-direction: column;
+        text-align: left;
+        margin-left: 13px;
+        justify-content: center;
     }
 
     .islands .item p {
         font-size: 10px;
         width: auto;
+        margin: 0px;
     }
 
     .islands .item h3 {
         font-size: 12px;
+        margin-top: 0px;
     }
 
     .islands img {
         width: 117px;
         height: 117px;
+    }
+
+    .islands-button {
+        display: flex;
+        justify-content: center;
+        padding: 38px;
+    }
+
+    .islands-button button {
+        width: 120px;
+        height: 25px;
+        font-size: 11px;
     }
 
     /* Info */
@@ -387,19 +432,24 @@ textarea::placeholder {
     header ul { 
         display: none; 
     }
+
+    .info-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
     .grid-container {
         display: flex;
         flex-direction: column;
-        padding-top: 69px;
-        padding-left: 55px;
+        padding-top: 10px;
         height: 608px;
-        padding-bottom: 55px;
     }
 
     .grid-container .item {
         display: flex;
         align-items: center;
         justify-content: left;
+        width: 330px;
     }
 
     .grid-container .item p {
@@ -416,7 +466,7 @@ textarea::placeholder {
         height: 80px;
     }
 
-    .info-footer {
+    footer {
         height: 88px;
         font-size: 12px;
         margin: 0px;
