@@ -449,7 +449,7 @@ textarea::placeholder {
         display: flex;
         align-items: center;
         justify-content: left;
-        width: 330px;
+        width: 275px;
     }
 
     .grid-container .item p {
